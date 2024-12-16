@@ -1,0 +1,29 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Progress {
+  margin-top: 5px;
+  width: 500px;
+  background-color: rgb(233, 236, 239);
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.Progress > span {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.Progress > div {
+  height: 100%;
+
+  background-color: green;
+}
